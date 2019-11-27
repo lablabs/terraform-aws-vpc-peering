@@ -1,5 +1,6 @@
 module "label" {
-  source     = "git::https://github.com/cloudposse/terraform-null-label.git?ref=tags/0.3.3"
+  source    = "lablabs/label/terraform"
+  version   = "0.4.0"
   enabled    = var.enabled
   namespace  = var.namespace
   name       = var.name
